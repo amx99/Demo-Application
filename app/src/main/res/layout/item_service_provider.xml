@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ellipse"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Michele Zamparo"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="34dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_pin"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="60dp"
+            />
+
+        <TextView
+            android:id="@+id/userLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boston, MA"
+            android:textColor="#828282"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="58dp"/>
+
+        <CheckBox
+            android:id="@+id/spCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="42dp"
+            android:button="@drawable/custom_checkbox"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

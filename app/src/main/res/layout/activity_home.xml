@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="170dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="160dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/group_55243" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="SILVER AD SPACE"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#fb6819"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
